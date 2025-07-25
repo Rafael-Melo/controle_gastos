@@ -19,7 +19,7 @@ services:
     container_name: pgadmin
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@gastos.local
+      PGADMIN_DEFAULT_EMAIL: admin@gastos.com
       PGADMIN_DEFAULT_PASSWORD: admin123
     ports:
       - "5050:80"
